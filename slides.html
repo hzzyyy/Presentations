@@ -1,0 +1,38 @@
+<style>
+    div.output_result {
+    font-size:150%;
+    line-height:150%;
+    }
+    div.output_stdout { 
+    font-size:150%;
+    line-height:150%;
+    }
+
+    <!-- in case prompt needed
+    div.prompt { 
+    font-size:100%;
+    line-height:100%;
+    }
+    -->    
+
+    div.CodeMirror{    <!-- code cell --> 
+    font-size:150%;
+    line-height:150%;
+    }
+    div.text_cell_render <!-- Markdown text --> 
+    font-family: 'Times New Roman';
+    font-size:150%;
+    line-height:150%;
+    }
+</style>
+
+<!--hide elements on the left-->
+<script>
+    $(document).ready(function(){
+        $('div.prompt').hide();
+        $('div.back-to-top').hide();
+        $('nav#menubar').hide();
+        $('.breadcrumb').hide();
+        $('.hidden-print').hide();
+    });
+</script>
