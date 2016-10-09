@@ -8,8 +8,8 @@ font-size:150%;
 line-height:150%;
 }
 div.prompt { 
-font-size:150%;
-line-height:150%;
+font-size:100%;
+line-height:100%;
 }
 div.CodeMirror{ /* code cell */
 font-size:150%;
